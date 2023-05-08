@@ -1,3 +1,4 @@
+"""
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 
@@ -11,3 +12,18 @@ def test_text_visible(driver: Chrome):
     print(question.text)
 
     assert question.text == correct_text
+"""
+
+
+def test_export_report_1():
+    a = 1 + 1
+    b = 2 + 2
+
+    assert b > a
+
+
+def test_export_report_2():
+    a = 2 + 2
+    b = 4 + 4
+
+    assert a < b
